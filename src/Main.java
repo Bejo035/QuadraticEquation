@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args){
-        String username = "root"; // username for SQL user
-        String password = "Lukalanaliagia27"; // password for SQL password
-        String Dbname = "koefs"; // database's name
+        String username = ""; // username for SQL user
+        String password = ""; // password for SQL password
+        String Dbname = ""; // database's name
 
         String query = "select * from koefs.koeficientebi"; // query for SQL database which gets whole info from database
         String Url = "jdbc:mysql://localhost:3306/" + Dbname; // Url to connect to host
