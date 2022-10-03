@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kvad-gant.iml" filepath="$PROJECT_DIR$/kvad-gant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuadraticEquation.iml" filepath="$PROJECT_DIR$/QuadraticEquation.iml" />
     </modules>
   </component>
 </project>
