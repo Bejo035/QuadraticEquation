@@ -13,7 +13,7 @@ public class Main {
         try (Connection connection = DriverManager.getConnection(Url, username, password);
              Statement stmt = connection.createStatement()) { // creating connection to SLQ database and preparing for execute query in SQL
             try(ResultSet rs = stmt.executeQuery(query)){ // executes SQL query
-                try (FileWriter write = new FileWriter("roots.txt")){ // opening file where we'll write Eq solutions
+                try (FileWriter write = new FileWriter("result/Results.txt")){ // opening file where we'll write Eq solutions
                     while (rs.next()) {
                         double A = rs.getDouble("A");
                         double B = rs.getDouble("B");
